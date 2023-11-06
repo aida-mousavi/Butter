@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/css/output.css">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/aktiv-grotesk-cd-trial" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="h-[100vh] overflow-y-scroll w-full text-white relative z-[99999999] overflow-x-hidden">
+        <section id="mainSection" class="w-full h-[1000vh] ">
+
+            <section id="TOP" class="bg-customBrown flex flex-wrap justify-center">
+                <div id="hamMenu"
+                    class="w-full h-[100vh]  bg-textBrown fixed top-[100%] duration-500  left-0 z-[2000000] flex justify-center items-center">
+                    <div class="lg:w-[30%] flex lg:justify-start">
+                        <ul class="w-full  flex justify-center items-center flex-wrap text-center">
+                            <li class="list-none text-[7vw] lg:text-[4vw] w-full">HOME</li>
+                            <li class="list-none text-[7vw] lg:text-[4vw] w-full">HOME</li>
+                            <li class="list-none text-[7vw] lg:text-[4vw] w-full">HOME</li>
+                            <li class="list-none text-[7vw] lg:text-[4vw] w-full">HOME</li>
+                        </ul>
+                    </div>
+                    <div class="w-[40%] h-[70%] flex flex-wrap items-end justify-center">
+                        <div
+                            class="w-[350px] h-[130px] mb-5 overflow-hidden rounded-[30px] bg-hamMenuColor relative flex items-center justify-between">
+                            <p class="text-3xl ps-3">UNSALTED</p>
+                            <img class="w-[215px] pt-[70px]" src="src/img/ham.webp">
+                        </div>
+                        <div
+                            class="w-[350px] h-[130px] mb-5 overflow-hidden rounded-[30px] bg-hamMenuColor relative flex items-center justify-between">
+                            <p class="text-3xl ps-3">UNSALTED</p>
+                            <img class="w-[215px] pt-[70px]" src="src/img/ham.webp">
+                        </div>
+                        <div
+                            class="w-[350px] h-[130px] mb-5 overflow-hidden rounded-[30px] bg-hamMenuColor relative flex items-center justify-between">
+                            <p class="text-3xl ps-3">UNSALTED</p>
+                            <img class="w-[215px] pt-[70px]" src="src/img/ham.webp">
+                        </div>
+                        <div
+                            class="w-[350px] h-[130px] mb-5 overflow-hidden rounded-[30px] bg-hamMenuColor relative flex items-center justify-between">
+                            <p class="text-3xl ps-3">UNSALTED</p>
+                            <img class="w-[215px] pt-[70px]" src="src/img/ham.webp">
+                        </div>
+                    </div>
+                </div>
+                <header class="w-[95%] lg:px-10  fixed z-[100000000]  top-5">
+                    <div
+                        class="w-full h-[50px] rounded-[40px] overflow-hidden bg-customBrown flex justify-between items-center px-7">
+                        <div class="w-[33%] flex justify-start items-center">
+                            <div id="btnHam" class=" w-[40px] h-[40px] group duration-500 ">
+
+                                <div class="w-full h-full flex flex-wrap items-end py-[15px]  ">
+                                    <div class="w-full h-[4px] bg-white mb-[5px] "></div>
+                                    <div class="w-[60%] h-[4px] bg-white group-hover:w-full duration-100"></div>
+                                </div>
+                                <div class="w-[40px] h-[40px] flex items-center">
+                                    <p class="text-xl font-bold ">CLOSE</p>
+                                    <img class="[filter:brightness(0%)invert()]" src="src/img/close.svg"></img>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="w-[33%] flex justify-center">
+                            <img class="h-[50px]" src="src/img/logo.webp"></img>
+                        </figure>
+                        <div class="w-[33%] flex justify-end">
+                            <div class="flex   font-semibold">
+                                <p class="text-[1.5rem] md:text-[1.9rem] px-3">SHOP</p>
+                                <p class="text-[1.5rem] md:text-[1.9rem]">CART</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="bg-customBrown pt-[100px] flex  w-full">
+                    <div class="w-[40%] px-5 ps-[4.5rem] md:ps-[2rem] relative z-10 flex flex-wrap items-center justify-center">
+                        <div class="ps-5">
+                            <h1
+                                class="text-[5rem] [line-height:4.5rem] lg:text-[11rem] lg:[line-height:9.5rem] pt-[60px]">
+                                <div class=" overflow-hidden flex ">
+                                    <span class="animate-moveText  translate-y-[145px]">N</span>
+                                    <span class="animate-moveText [animation-delay:.2s] translate-y-[145px]">O</span>
+                                </div>
+                                <div class="  overflow-hidden flex ">
+                                    <span class="animate-moveText  translate-y-[145px]">J</span>
+                                    <span class="animate-moveText [animation-delay:.1s] translate-y-[145px]">U</span>
+                                    <span class="animate-moveText [animation-delay:.2s] translate-y-[145px]">N</span>
+                                    <span class="animate-moveText [animation-delay:.3s] translate-y-[145px]">K</span>
+                                </div>
+                                <div class="  overflow-hidden flex ">
+                                    <span class="animate-moveText  translate-y-[145px]">P</span>
+                                    <span class="animate-moveText [animation-delay:.1s] translate-y-[145px]">E</span>
+                                    <span class="animate-moveText [animation-delay:.3s] translate-y-[145px]">A</span>
+                                    <span class="animate-moveText [animation-delay:.4s] translate-y-[145px]">N</span>
+                                    <span class="animate-moveText [animation-delay:.5s] translate-y-[145px]">U</span>
+                                    <span class="animate-moveText [animation-delay:.6s] translate-y-[145px]">T</span>
+                                </div>
+                                <div class="  overflow-hidden flex ">
+                                    <span class="animate-moveText [animation-delay:.1s] translate-y-[145px]">B</span>
+                                    <span class="animate-moveText [animation-delay:.2s] translate-y-[145px]">U</span>
+                                    <span class="animate-moveText [animation-delay:.3s] translate-y-[145px]">T</span>
+                                    <span class="animate-moveText [animation-delay:.4s] translate-y-[145px]">E</span>
+                                    <span class="animate-moveText [animation-delay:.5s] translate-y-[145px]">E</span>
+                                    <span class="animate-moveText [animation-delay:.6s] translate-y-[145px]">R</span>
+                                </div>
+                            </h1>
+                            <p class="text-xl font-secondary ">Low calorie, zero sugar and tastes like a dream.</p>
+                            <div
+                                class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                                <a href="#" class="">SHOP NOW</a>
+                                <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                                    src="src/img/chocolate.webp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="imgTop" class="w-[60%] relative flex flex-wrap items-center justify-center md:p-10">
+                        <img class="w-0  animate-bgPeanut" src="src/img/peanut.webp">
+                        <div class="absolute w-full h-full translate-y-[-800px]  animate-movePeanut3">
+                            <div class="flex flex-wrap">
+                                <img class="absolute animate-movePeanut1 w-[35vw] md:w-[300px] top-[20%]  right-[1vw]"
+                                    src="src/img/headerRight.webp">
+                                <img class="absolute animate-movePeanut2  w-[35vw] md:w-[300px] top-[30%]  left-[1vw]"
+                                    src="src/img/headerLeft.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="PRODUCES" class=" w-full bg-customPink relative flex flex-wrap justify-center overflow-hidden">
+                <figure class="bg-customBrown ">
+                    <img class=" w-full" src="src/img/chocolatePink.webp">
+                </figure>
+                <div id="SILV" class=" px-[2vw] lg:w-[80%] p-10  relative ">
+                    <div
+                        class="text-textBrown text-[7vw] [line-height:2.5rem] md:[line-height:3.5rem] lg:text-[5.5vw] text-center lg:[line-height:4rem] ">
+
+                        <div class=" overflow-hidden flex w-full justify-center ">
+                            <span class="  [transform:translateY(-200px)rotate(15deg)]">SILV PRODUCES PEANUT BUTTER
+                                OF</span>
+                        </div>
+                        <div class=" overflow-hidden flex  w-full justify-center">
+                            <span class="  [animation-delay:.2s] rotate-[10deg] translate-y-[160px]">EXCEPTIONAL
+                                QUALITY, WITH</span>
+
+                        </div>
+                        <div class=" overflow-hidden flex  w-full justify-center">
+                            <span class="  [animation-delay:.4s] rotate-[10deg] translate-y-[160px]">UNMATCHED ATTENTION
+                                TO DETAIL.BY </span>
+                        </div>
+                        <div class=" overflow-hidden flex  w-full justify-center">
+                            <span class="  [animation-delay:.6s]  [transform:translateY(-220px)rotate(15deg)] ">PEANUT
+                                BUTTER LOVERS, FOR PEANUT
+                            </span>
+
+                        </div>
+                        <div class=" overflow-hidden flex  w-full justify-center">
+                            <span class="  [animation-delay:.8s] rotate-[10deg] translate-y-[160px]">UNMATCHED ATTENTION
+                                TO DETAIL.BY
+                            </span>
+
+                        </div>
+                        <div class=" overflow-hidden flex  w-full justify-center">
+                            <span class="  [animation-delay:1s] [transform:translateY(-160px)rotate(15deg)] "> BUTTER
+                                LOVERS</span>
+                        </div>
+                    </div>
+                </div>
+                <figure class="relative bg-customPink  w-[65%]">
+                    <img src="src/img/Product.webp" alt="">
+                    <div class="absolute w-full h-full [top:0%] left-0 bg-customPink [transition:3s]"></div>
+                </figure>
+                <img class="absolute right-[0] bottom-5 w-[35%] [transform:translateX(600px)] duration-700"
+                    src="src/img/knife.webp" alt="">
+            </section>
+
+            <section id="BELIEVE" class=" overflow-hidden relative flex flex-wrap justify-center bg-customPink py-10">
+                <div class="relative flex flex-wrap justify-center">
+                    <div class="w-[65%] text-center">
+                        <p
+                            class="text-textBrown text-[7vw] [line-height:2.5rem] md:[line-height:3.5rem] lg:text-[3.5vw] text-center lg:[line-height:3rem]">
+                            WE BELIEVE THERE’S ROOM FOR HEALTH AND TASTE WHEN IT COMES TO PEANUT BUTTER. WHEN YOU UNITE
+                            THE TWO, DELICIOUS THINGS HAPPEN!</p>
+                        <p class="font-secondary my-7 lg:text-lg text-customBrown">We live to create with healthy in
+                            mind and strive to deliver all that we do with style in mind.</p>
+                        <div class="w-full flex justify-center">
+                            <div
+                                class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                                <a href="#" class="">SHOP NOW</a>
+                                <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                                    src="src/img/chocolate.webp">
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="absolute top-[40%] w-[20%] [left:-100%] duration-700" src="src/img/personLeft.webp">
+                    <img class="absolute top-[50%] w-[20%] [right:-100%] duration-700" src="src/img/personRight.webp">
+                </div>
+                <div class="flex w-full  justify-center py-10 lg:pt-[300px]">
+                    <figure class="w-[80%] flex justify-center md:justify-end md:w-[50%] md:px-4">
+                        <img class="w-[360px] lg:w-[600px]" src="src/img/zero.webp">
+                    </figure>
+                    <div class="hidden  md:w-[50%] md:flex items-center justify-end ">
+                        <img class="hidden lg:flex [transform:scale(-1,1)]" src="src/img/fork.webp">
+                        <img class="flex lg:hidden w-[88%] " src="src/img/gifButter.gif">
+                    </div>
+                </div>
+                <img class="absolute w-full top-[98%] rotate-180" src="src/img/chocolatePink.webp">
+            </section>
+
+            <section id="PEANUT" class="bg-customBrown  ">
+                <img class="w-full [transform:rotate(180deg)translateY(1%)]" src="src/img/chocolatePink.webp">
+                <div class=" px-[2vw] lg:w-[80%] p-10  relative ">
+                    <div
+                        class=" text-[7vw] [line-height:2.5rem] md:[line-height:3.5rem] lg:text-[5.5vw]   lg:[line-height:4rem] ">
+
+                        <div class=" overflow-hidden flex w-full  ">
+                            <span class=" rotate-[10deg] translate-y-[160px]"> INNOVATING THE PEANUT BUTTER</span>
+                        </div>
+                        <div class=" overflow-hidden flex  w-full ">
+                            <span class="  [animation-delay:.2s] rotate-[10deg] translate-y-[160px]">INDUSTRY— ONE
+                                FLAVOR AT A TIME.</span>
+
+                        </div>
+                        <div class=" overflow-hidden flex  w-full ">
+                            <span class="  [animation-delay:.4s] rotate-[10deg] translate-y-[160px]">PRODUCED IN NEW
+                                YORK, EATEN </span>
+                        </div>
+                        <div class=" overflow-hidden flex  w-full ">
+                            <span
+                                class="  [animation-delay:.6s] rotate-[10deg] translate-y-[160px]  ">EVERYWHERE.</span>
+
+                        </div>
+                        <div
+                            class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                            <a href="#" class="">SHOP NOW</a>
+                            <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                                src="src/img/chocolate.webp">
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="FLAVORS" class="bg-customBrown pb-20 relative">
+                <div class="text-6xl p-5 ">FLAVORS</div>
+                <div class="flex flex-wrap justify-evenly px-5 pt-7 pb-[7rem]">
+                    <figure class="w-full sm:w-[48%] lg:w-[23%] mb-5 relative group">
+                        <img class="  absolute z-[100] top-0 left-0 w-full group-hover:invisible" src="src/img/c1.webp">
+                        <video class="" src="  src/img/1.mp4" autoplay loop muted></video>
+                        <figcaption class="flex justify-around mt-5">
+                            <p class="text-3xl">SILV CREAMY</p>
+                            <p class="text-2xl"> $24.99 USD</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full sm:w-[48%] lg:w-[23%] mb-5 relative group">
+                        <img class="  absolute z-[100] top-0 left-0 w-full group-hover:invisible" src="src/img/c2.webp">
+                        <video class="" src="  src/img/2.mp4" autoplay loop muted></video>
+                        <figcaption class="flex justify-around mt-5">
+                            <p class="text-3xl">SILV CREAMY</p>
+                            <p class="text-2xl"> $24.99 USD</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full sm:w-[48%] lg:w-[23%] mb-5 relative group">
+                        <img class="  absolute z-[100] top-0 left-0 w-full group-hover:invisible" src="src/img/c3.webp">
+                        <video class="" src="  src/img/3.mp4" autoplay loop muted></video>
+                        <figcaption class="flex justify-around mt-5">
+                            <p class="text-3xl">SILV CREAMY</p>
+                            <p class="text-2xl"> $24.99 USD</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="w-full sm:w-[48%] lg:w-[23%] mb-5 relative group">
+                        <img class="  absolute z-[100] top-0 left-0 w-full  group-hover:invisible" src="src/img/c4.webp">
+                        <video class="" src="  src/img/4.mp4" autoplay loop muted></video>
+                        <figcaption class="flex justify-around mt-5">
+                            <p class="text-3xl">SILV CREAMY</p>
+                            <p class="text-2xl"> $24.99 USD</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <img class="absolute bottom-[-5px] w-full" src="src/img/chocolatePink.webp">
+            </section>
+
+            <section id="SUB" class="bg-customPink flex justify-center flex-wrap pt-[160px] md:pt-[200px] relative">
+                <svg class=" absolute top-[50px] fill-textBrown text-[43px] rotate-[6deg]" viewBox="0 0 500 500">
+                    <path class="fill-transparent" id="curve"
+                        d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                    <text width="500">
+                        <textPath xlink:href="#curve">
+                            SUBSCRIBE AND SAVE 20%
+                        </textPath>
+                    </text>
+                </svg>
+                <div class="w-full flex justify-center mb-[5rem] lg:mt-[3rem]">
+                    <div
+                        class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                        <a href="#" class="">SHOP NOW</a>
+                        <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                            src="src/img/chocolate.webp">
+                        </a>
+                    </div>
+                </div>
+                <div class="w-[70%] flex justify-between text-textBrown lg:m-20 ">
+                    <figure class="w-[75px] md:mt-7 lg:w-[12%]">
+                        <img src="src/img/off.webp" alt="">
+                        <figcaption class="text-center text-lg pt-2">20% OFF</figcaption>
+                    </figure>
+                    <figure class="w-[75px] md:mt-7 lg:w-[12%]">
+                        <img src="src/img/calender.webp" alt="">
+                        <figcaption class="text-center text-lg pt-2">CUSTOMIZE DELIVERY TIME</figcaption>
+                    </figure>
+                    <figure class="w-[75px] md:mt-7 lg:w-[12%]">
+                        <img src="src/img/skip.png" alt="">
+                        <figcaption class="text-center text-lg pt-2">SKIP ANYTIME</figcaption>
+                    </figure>
+                </div>
+                <figcaption class="mt-20 px-10">
+                    <img src="src/img/box.webp">
+                </figcaption>
+            </section>
+
+            <section id="COMMENT" class=" overflow-hidden bg-customPink relative">
+                <div class="w-full h-[220px] lg:h-[320px] ">
+                    <svg class="fill-textBrown" viewBox="0 -50 425 300">
+                        <path id="curve1"
+                            d="M0,0C76.72,0,76.72,49.11,153.43,49.11S230.15,0,306.87,0,383.58,49.11,460.3,49.11,537,0,613.74,0"
+                            fill="none"></path>
+                        <text x="-500">
+                            <textPath xlink:href="#curve1">
+                                REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp;
+                                REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp;
+                                REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp;
+                                REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp; REVIEWS &nbsp;☻&nbsp;
+                                REVIEWS &nbsp;☻&nbsp;
+                            </textPath>
+                            <animate attributeName="x" dur="25s" values="-550;0" repeatCount="indefinite"></animate>
+                        </text>
+                    </svg>
+
+                </div>
+                <img class="w-[25%] absolute top-0 right-8" src="src/img/bread.webp" alt="">
+                <img class="w-[20%] absolute top-9 left-8" src="src/img/groundnut.webp" alt="">
+
+                <div class="flex  justify-center relative px-5">
+                    <img class="ps-14" src="src/img/peanut.webp">
+                 
+                    <div
+                        class="flex justify-between text-customBrown w-full absolute z-[100]  top-[50%] translate-y-[-50%] left-0">
+                        <div class=" h-[200px]   flex items-center ">
+                            <i id="arrowLeft"
+                                class="bi bi-arrow-left-short  text-[50px] cursor-pointer text-[#d5a167]"></i>
+                        </div>
+                        <div class=" h-[200px]   flex items-center pe-2 ">
+                            <i id="arrowRight"
+                                class="bi bi-arrow-left-short  text-[50px] rotate-180 cursor-pointer text-[#d5a167]"></i>
+                        </div>
+                    </div>
+
+                    <div class="absolute  top-[50%] [transform:translateY(-50%)]  left-[64px] flex justify-between  ">
+                        <div id="quoteComment" class="flex  w-[2220px]">
+                            <div class="w-[350px] mx-[10px] h-[200px]  rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“1The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+
+                            <div class="w-[350px] mx-[10px] h-[200px] rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“2The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+
+                            <div class="w-[350px] mx-[10px] h-[200px] rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“3The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+
+                            <div class="w-[350px] mx-[10px] h-[200px] rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“4The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+
+                            <div class="w-[350px] mx-[10px] h-[200px] rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“5The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+
+                            <div class="w-[350px] mx-[10px] h-[200px] rounded-3xl p-5 bg-customBrown text-white">
+                                <img class="w-[50px] h-[50px] [filter:brightness(0%)invert()]"
+                                    src="src/img/quote-left-filled.svg">
+                                <p class="font-secondary my-2">“6The flavors are splendid, healthy, low calories, and
+                                    yummy!”</p>
+                                <p class="font-semibold">Jean | NY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="SEEN" class="bg-customPink flex flex-wrap justify-center">
+                <p class=" text-[7vw] lg:text-[5.5vw] py-10 w-full px-5 text-textBrown text-center">AS SEEN IN</p>
+                <div
+                    class="w-full md:w-[80%] lg:w-[87%] xl:w-[60%] h-[500px] lg:h-[420px] flex flex-wrap justify-center">
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:visible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class="w-[50%] sm:w-[30%] lg:w-[19%] flex justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+
+                    <div class=" hidden lg:flex w-[50%] sm:w-[30%] lg:w-[19%]  justify-center items-center mb-5">
+                        <figure class="ADV w-[1px] h-[1px]  rounded-full bg-textBrown flex justify-center items-center">
+                            <img class="[opacity:0] [visibility:invisible] [filter:brightness(17.5)]"
+                                src="src/img/logo1.webp">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section id="CREATING" class="  relative z-[0]  ">
+                <div class="relative">
+                    <div class="relative w-[70%] z-[3] ">
+                        <img class="pt-[16vw]" src="src/img/girl.webp">
+                        <img class="pt-[16vw] absolute w-[60%] [transform:translateY(-34%)translateX(44%)] top-0 right-0"
+                            src="src/img/bowl.png" alt="">
+                    </div>
+                    <div class="absolute z-[-20] w-full h-[50%] top-[0%]  bg-customPink"></div>
+                    <div class="absolute z-[-20] w-full h-[50%] top-[50%] bg-customBrown">
+                        <img class="w-full  absolute top-[-1%] rotate-180  z-50" src="src/img/chocolatePink.webp">
+
+                    </div>
+                </div>
+                <div class="relative  w-full z-[1] bg-customBrown py-12 pb-[150px]">
+                    <div class="bg-customBrown flex flex-wrap relative z-[50] px-5 ">
+                        <p
+                            class="w-full sm:w-[52%] pb-10 text-[9vw] [line-height:3.5rem] md:[line-height:4.5rem] lg:text-[5.5vw]  lg:[line-height:4rem]">
+                            CREATING HEALTHY PEANUT BUTTER ONE DAY AT A TIME</p>
+                        <div class="w-full flex flex-wrap sm:justify-end">
+                            <div class="w-full sm:w-[52%]">
+                                <p class="font-secondary text-lg">Born and raised in a small town in rural America, John
+                                    Knight. always had a passion for food and entrepreneurship. As a child, he spent
+                                    hours in the kitchen experimenting with different recipes and flavors, and he had a
+                                    particular love for peanut butter. After completing high school, John attended a
+                                    local state university where he studied business and marketing. It was there that he
+                                    had the idea to start his own business selling homemade peanut butter. </p>
+                                <div
+                                    class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                                    <a href="#" class="">OUR STOR</a>
+                                    <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                                        src="src/img/chocolate.webp">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="FIND" class="bg-customPink text-textBrown flex flex-wrap justify-center relative">
+                <img class="w-full absolute top-[-16%] z-50" src="src/img/chocolatePink.webp">
+
+                <p class="text-[7vw] lg:text-[5.5vw] py-10">FIND SILV NEAR YOU</p>
+                <figure class="relative w-[80%] lg:translate-x-[-100px]">
+                    <img src="src/img/map.webp">
+                    <div
+                        class="absolute flex justify-center items-center w-[26px] top-[30%] left-[30%] h-[26px] rounded-full bg-white ">
+                        <div class="absolute animate-circle  w-[8px] rounded-full  h-[8px]  bg-customBrown"></div>
+                    </div>
+                    <div
+                        class="absolute flex justify-center items-center w-[26px] bottom-[20%] left-[60%] h-[26px] rounded-full bg-white ">
+                        <div class="absolute animate-circle  w-[8px] rounded-full  h-[8px]  bg-customBrown"></div>
+                    </div>
+                    <div
+                        class="absolute flex justify-center items-center w-[26px] top-[10%] left-[50%] h-[26px] rounded-full bg-white ">
+                        <div class="absolute animate-circle  w-[8px] rounded-full  h-[8px]  bg-customBrown"></div>
+                    </div>
+                </figure>
+            </section>
+
+            <section id="FOLLOW US" class="bg-customPink relative ">
+
+                <div class="flex justify-between p-5">
+                    <p class="text-textBrown text-[7vw] lg:text-[5.5vw] ">FOLLOW US</p>
+                    <a href="https://instagram.com/dev.mousavi?igshid=OGQ5ZDc2ODk2ZA=="
+                        class="text-textBrown text-[7vw] lg:text-[5.5vw] ">@dev.mousavi</a>
+                </div>
+                <img class="w-full absolute top-[95%] rotate-180 z-50" src="src/img/chocolatePink.webp">
+            </section>
+
+            <footer class="bg-customBrown relative p-10 ">
+                <img src="src/img/wave.webp">
+                <div class="w-full  flex flex-wrap justify-between ">
+                    <div class="w-full md:w-[50%] mb-5">
+                        <div class=" flex justify-between w-[300px]  text-xl">
+                            <ul>
+                                <li class="text-[40px] font-bold py-4">MENU</li>
+                                <li class="py-1">HOME</li>
+                                <li class="py-1">SHOP ALL</li>
+                                <li class="py-1">OUR STORY</li>
+                            </ul>
+                            <ul>
+                                <li class="text-[40px] font-bold py-4">MENU</li>
+                                <li class="py-1">HOME</li>
+                                <li class="py-1">SHOP ALL</li>
+                                <li class="py-1">OUR STORY</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-[50%] mb-5">
+                        <p class="w-full text-4xl font-semibold">
+                            KEEP UP TO DATE WITH SILVS.
+                        </p>
+
+                        <input type="email" placeholder="YOUR EMAIL"
+                            class="text-[20px] py-2 my-1 text-white placeholder-white outline-none w-full  border-b-2 border-white bg-customBrown">
+                        <div class="w-full">
+                            <div
+                                class=" group rounded-[30px] my-5 w-[200px] h-[50px] z-10 relative flex justify-center items-center flex-wrap bg-white text-2xl text-customBrown ">
+                                <a href="#" class="">JOIN</a>
+                                <img class="absolute group-hover:bottom-0 duration-500 z-[-1] bottom-[-30px] px-3 left-0 [filter:brightness(0%)invert()]"
+                                    src="src/img/chocolate.webp">
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full flex justify-center py-10">
+                    <figure class="w-[80%] ">
+                        <img src="src/img/logo.webp">
+                    </figure>
+                </div>
+                <div class="w-full flex justify-center py-5">
+                    <div class="w-[400px] flex justify-evenly">
+                        <i
+                            class="bi bi-instagram text-[50px] text-white duration-200 hover:text-customPink hover:[transform:scale(1.2)]"></i>
+                        <i
+                            class="bi bi-telegram text-[50px] text-white duration-200 hover:text-customPink hover:[transform:scale(1.2)]"></i>
+                        <i
+                            class="bi bi-twitter text-[50px] text-white duration-200 hover:text-customPink hover:[transform:scale(1.2)]"></i>
+                        <i
+                            class="bi bi-linkedin text-[50px] text-white duration-200 hover:text-customPink hover:[transform:scale(1.2)]"></i>
+                    </div>
+                </div>
+                <div class="w-full flex text-[7vw] lg:text-[4vw] justify-center items-center ">
+                    <a class=" text-white duration-200 hover:text-customPink hover:[transform:scale(1.2)]"
+                        href="mailto: dev.mousavi@gmail.com">dev.mousavi@gmail.com</a>
+                </div>
+
+            </footer>
+
+        </section>
+    </main>
+    <script src="src/js/master.js"></script>
+</body>
+
+</html>

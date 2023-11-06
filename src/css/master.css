@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Helvetica Now DisplayL';
+  src: url('https://assets.website-files.com/63b595ac8e2da07e6f0d7fe8/63b595ac8e2da0117f0d803b_HelveticaNowDisplay-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Now DisplayB';
+  src: url('https://assets.website-files.com/63b595ac8e2da07e6f0d7fe8/63b595ac8e2da0d6d60d8045_HelveticaNowDisplay-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trivia Grotesk';
+  src: url('https://assets.website-files.com/63b595ac8e2da07e6f0d7fe8/63b595ac8e2da00d4d0d8014_trivia-grotesk-n3-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  font-family: 'Trivia Grotesk';
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
